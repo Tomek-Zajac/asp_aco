@@ -7,6 +7,10 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{3292F8F9-192
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "asp_aco.ConsoleApp", "src\asp_aco.ConsoleApp\asp_aco.ConsoleApp.csproj", "{8A3E4021-5D52-4F66-8925-604DBC68A12A}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "algorithms", "algorithms", "{8DCC333A-C21D-4BB1-ACFD-D8764F58F73D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "bnb", "src\algorithms\bnb\bnb.csproj", "{822AD5B3-E475-436F-9457-02A6EE965B70}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -20,8 +24,14 @@ Global
 		{8A3E4021-5D52-4F66-8925-604DBC68A12A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{8A3E4021-5D52-4F66-8925-604DBC68A12A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{8A3E4021-5D52-4F66-8925-604DBC68A12A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{822AD5B3-E475-436F-9457-02A6EE965B70}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{822AD5B3-E475-436F-9457-02A6EE965B70}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{822AD5B3-E475-436F-9457-02A6EE965B70}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{822AD5B3-E475-436F-9457-02A6EE965B70}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{8A3E4021-5D52-4F66-8925-604DBC68A12A} = {3292F8F9-1921-49C3-968F-D9BBDAED1AAB}
+		{8DCC333A-C21D-4BB1-ACFD-D8764F58F73D} = {3292F8F9-1921-49C3-968F-D9BBDAED1AAB}
+		{822AD5B3-E475-436F-9457-02A6EE965B70} = {8DCC333A-C21D-4BB1-ACFD-D8764F58F73D}
 	EndGlobalSection
 EndGlobal
